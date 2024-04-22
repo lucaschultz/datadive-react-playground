@@ -8,5 +8,12 @@
 		"node_modules",
 		"pnpm-lock.yaml"
 	],
-	"words": ["datadive", "knip", "packagejson", "tsup"]
+	"words": [
+		"datadive",
+		"knip",
+		"packagejson",
+		"tsup",
+		"commitlint",
+		"tailwindcss"
+	]
 }
