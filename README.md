@@ -12,9 +12,7 @@ Next, open the repository in your terminal and run `pnpm install` to install all
 pnpm run dev
 ```
 
-## Committing Changes
-
-Before committing, make sure to run:
+This repository follows the [conventional commits](https://www.conventionalcommits.org) standard. To ensure that commit messages adhere to this standard, we use [commitlint](https://github.com/conventional-changelog/commitlint). Before making your first commit, please run the following command:
 
 ```bash
 pnpm prepare
