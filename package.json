@@ -21,6 +21,7 @@
 		"format": "prettier --write .",
 		"lint": "eslint . --report-unused-disable-directives --max-warnings 0",
 		"lint:fix": "eslint . --fix --report-unused-disable-directives --max-warnings 0",
+		"lint:format": "prettier --check .",
 		"lint:knip": "knip",
 		"lint:md": "markdownlint \"**/*.md\" \".github/**/*.md\" --rules sentences-per-line",
 		"lint:packages": "pnpm dedupe --check",
