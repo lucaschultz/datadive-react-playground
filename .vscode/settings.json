@@ -4,9 +4,7 @@
 	},
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnSave": true,
-	"editor.rulers": [
-		80
-	],
+	"editor.rulers": [80],
 	"eslint.probe": [
 		"javascript",
 		"javascriptreact",
@@ -26,5 +24,6 @@
 	"files.associations": {
 		"*.css": "tailwindcss"
 	},
+	"prettier.documentSelectors": ["**/*.svg"],
 	"typescript.tsdk": "node_modules/typescript/lib"
 }

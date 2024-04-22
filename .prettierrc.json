@@ -11,7 +11,8 @@
 	"plugins": [
 		"prettier-plugin-curly",
 		"prettier-plugin-packagejson",
-		"prettier-plugin-tailwindcss"
+		"prettier-plugin-tailwindcss",
+		"@prettier/plugin-xml"
 	],
 	"useTabs": true
 }
