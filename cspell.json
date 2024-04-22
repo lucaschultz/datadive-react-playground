@@ -4,9 +4,11 @@
 		".github",
 		"CHANGELOG.md",
 		"coverage",
-		"lib",
+		"dist",
 		"node_modules",
-		"pnpm-lock.yaml"
+		"pnpm-lock.yaml",
+		"**/*.svg",
+		"achievements.json"
 	],
 	"words": [
 		"datadive",
