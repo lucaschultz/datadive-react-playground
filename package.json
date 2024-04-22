@@ -1,0 +1,88 @@
+{
+	"name": "datadive-react-playground",
+	"version": "0.0.0",
+	"description": "A very lovely package. Hooray",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lucaschultz/datadive-react-playground"
+	},
+	"license": "MIT",
+	"type": "module",
+	"files": [
+		"lib/",
+		"package.json",
+		"LICENSE.md",
+		"README.md"
+	],
+	"scripts": {
+		"build": "tsc && vite build",
+		"commit": "git-cz",
+		"dev": "vite",
+		"format": "prettier --write .",
+		"lint": "eslint . --report-unused-disable-directives --max-warnings 0",
+		"lint:fix": "eslint . --fix --report-unused-disable-directives --max-warnings 0",
+		"lint:knip": "knip",
+		"lint:md": "markdownlint \"**/*.md\" \".github/**/*.md\" --rules sentences-per-line",
+		"lint:packages": "pnpm dedupe --check",
+		"lint:spelling": "cspell \"**\" \".github/**/*\"",
+		"prepare": "husky",
+		"preview": "vite preview",
+		"tsc": "tsc"
+	},
+	"lint-staged": {
+		"*": "prettier --ignore-unknown --write"
+	},
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^19.2.2",
+		"@commitlint/config-conventional": "^19.2.2",
+		"@commitlint/cz-commitlint": "^19.2.0",
+		"@types/eslint": "^8.56.10",
+		"@types/react": "^18.2.66",
+		"@types/react-dom": "^18.2.22",
+		"@typescript-eslint/eslint-plugin": "^7.7.0",
+		"@typescript-eslint/parser": "^7.7.0",
+		"@vitejs/plugin-react-swc": "^3.5.0",
+		"autoprefixer": "^10.4.19",
+		"commitizen": "^4.3.0",
+		"cspell": "^8.7.0",
+		"eslint": "8.57.0",
+		"eslint-plugin-deprecation": "^2.0.0",
+		"eslint-plugin-eslint-comments": "^3.2.0",
+		"eslint-plugin-jsdoc": "^48.2.3",
+		"eslint-plugin-jsonc": "^2.15.1",
+		"eslint-plugin-markdown": "^4.0.1",
+		"eslint-plugin-package-json": "^0.12.2",
+		"eslint-plugin-perfectionist": "^2.9.0",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-react-refresh": "^0.4.6",
+		"eslint-plugin-regexp": "^2.5.0",
+		"eslint-plugin-yml": "^1.14.0",
+		"husky": "^9.0.11",
+		"jsonc-eslint-parser": "^2.4.0",
+		"knip": "^5.9.4",
+		"lint-staged": "^15.2.2",
+		"markdownlint": "^0.34.0",
+		"markdownlint-cli": "^0.39.0",
+		"postcss": "^8.4.38",
+		"prettier": "^3.2.5",
+		"prettier-plugin-curly": "^0.2.1",
+		"prettier-plugin-packagejson": "^2.5.0",
+		"prettier-plugin-tailwindcss": "^0.5.14",
+		"sentences-per-line": "^0.2.1",
+		"tailwindcss": "^3.4.3",
+		"typescript": "^5.4.5",
+		"vite": "^5.2.0",
+		"yaml-eslint-parser": "^1.2.2"
+	},
+	"packageManager": "pnpm@8.15.4",
+	"engines": {
+		"node": ">=18"
+	},
+	"publishConfig": {
+		"provenance": true
+	}
+}

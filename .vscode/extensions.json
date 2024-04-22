@@ -1,0 +1,11 @@
+{
+	"recommendations": [
+		"DavidAnson.vscode-markdownlint",
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"streetsidesoftware.code-spell-checker",
+		"bradlc.vscode-tailwindcss",
+		"yoavbls.pretty-ts-errors",
+		"christian-kohler.path-intellisense"
+	]
+}

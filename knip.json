@@ -1,0 +1,9 @@
+{
+	"$schema": "https://unpkg.com/knip@latest/schema.json",
+	"entry": ["src/{index,main,cli}.{js,cjs,mjs,jsx,ts,cts,mts,tsx}"],
+	"ignoreExportsUsedInFile": {
+		"interface": true,
+		"type": true
+	},
+	"project": ["**/*.{js,cjs,mjs,jsx,ts,cts,mts,tsx}"]
+}
