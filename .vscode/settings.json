@@ -1,8 +1,5 @@
 {
 	"cSpell.words": ["commitlint", "tailwindcss"],
-	"files.associations": {
-		"*.css": "tailwindcss"
-	},
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": "explicit"
 	},
@@ -25,5 +22,8 @@
 			"severity": "warn"
 		}
 	],
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
 	"typescript.tsdk": "node_modules/typescript/lib"
 }
